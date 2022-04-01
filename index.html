@@ -1,1 +1,95 @@
-<img src="GameRotate.gif">
+<html>
+	<head>
+        <title>4D Miner: A 4-Dimensional Survival Sandbox Game</title>
+	</head>
+	<body>
+		<style>
+		
+		body {
+			margin: 0px;
+			font-family: Futura,Helvetica,sans-serif;
+			font-size: 16px;
+			background-color: black;
+			color: white;
+		}
+			
+        #pageContent {
+            text-align: center;
+            padding: 0px;
+            padding-top: 50px;
+            box-sizing: border-box;
+        }
+
+        @media screen and (max-width:750px) {
+            #logo {
+                width: 500px;
+            }
+
+            #demogif {
+                width: 500px;
+            }
+        }
+        
+        @media screen and (max-width:500px) {
+            #logo {
+                width: 250px;
+            }
+
+            #demogif {
+                width: 250px;
+            }
+        }
+
+        a {
+            color: rgb(207, 73, 73);
+        }
+
+        #demogif {
+            border-radius: 20px;
+        }
+
+        /* horizontal dot list */
+        .dot-list {
+            /* remove whitespace between items */
+            font-size: 0;
+        }
+
+        .dot-list ul, .dot-list ol {
+            margin: 0;
+        }
+
+        .dot-list li {
+            display: inline-block;
+            font-size: 16px;
+        }
+
+        .dot-list li:after {
+            content: "•";
+            font-size: 18px;
+            padding: 0 0.25em;
+        }
+
+        .dot-list li:last-of-type:after {
+            display: none;
+        }
+        </style>
+        <div id="pageContent">
+            <img id="logo" src="logo.png">
+            <div class="dot-list">
+                <ul>
+                    <li><a href="https://4d-miner.fandom.com">Wiki</a></li>
+                    <li><a href="https://discord.gg/jda6u2vQ">Discord</a></li>
+                    <li><a href="https://reddit.com/r/4D_Miner">Subreddit</a></li>
+                    <li>Steam (coming soon)</li>
+                </ul>
+            </div>
+            <br>
+            <br>
+            <p><a href="https://4d-miner.fandom.com/wiki/4D_Miner"><i>4D Miner</i></a> is a 4-dimensional survival sandbox game, where you can explore an infinite, procedurally-generated, 4-dimensional world!</p>
+            <a href="https://4d-miner.fandom.com/wiki/4D_Miner"><b>Learn More</b></a>
+            <br>
+            <br>
+            <img id="demogif" src="GameRotate.gif">
+        </div>
+    </body>
+</html>
